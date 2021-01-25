@@ -15,12 +15,12 @@ export class InicioPage implements OnInit {
 
   componente:Componente[]=[
     {
-      icono: 'person',
+      icono: 'ellipsis-vertical-outline',
       nombre: 'Action Sheet',
       direccion: '/action-sheet'
     },
     {
-      icono: 'pricetag',
+      icono: 'chatbubble-outline',
       nombre: 'Alert',
       direccion: '/alert'
     },
@@ -30,24 +30,39 @@ export class InicioPage implements OnInit {
       direccion: '/fab'
     },
     {
-      icono: 'rocket-outline',
+      icono: 'calendar-outline',
       nombre: 'Datetime',
       direccion: '/datetime'
     },
     {
-      icono: 'albums-outline',
+      icono: 'calculator-outline',
       nombre: 'Botones',
       direccion: '/buttons'
     },
     {
-      icono: 'albums-outline',
+      icono: 'person-outline',
       nombre: 'Avatar',
       direccion: '/avatar'
     },
     {
-      icono: 'albums-outline',
+      icono: 'layers-outline',
       nombre: 'Cards',
       direccion: '/cards'
+    },
+    {
+      icono: 'person-add-outline',
+      nombre: 'Item Sliding',
+      direccion: '/item-sliding'
+    },
+    {
+      icono: 'people-outline',
+      nombre: 'Item Group',
+      direccion: '/item-group'
+    },
+    {
+      icono: 'person-remove-outline',
+      nombre: 'Item Options',
+      direccion: '/item-options'
     }    
   ]
   constructor() { }

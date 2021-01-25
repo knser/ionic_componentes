@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'inicio',
     pathMatch: 'full'
   },
   {
@@ -42,6 +42,18 @@ const routes: Routes = [
   {
     path: 'cards',
     loadChildren: () => import('./paginas/cards/cards.module').then( m => m.CardsPageModule)
+  },
+  {
+    path: 'item-sliding',
+    loadChildren: () => import('./paginas/item-sliding/item-sliding.module').then( m => m.ItemSlidingPageModule)
+  },
+  {
+    path: 'item-group',
+    loadChildren: () => import('./paginas/item-group/item-group.module').then( m => m.ItemGroupPageModule)
+  },
+  {
+    path: 'item-options',
+    loadChildren: () => import('./paginas/item-options/item-options.module').then( m => m.ItemOptionsPageModule)
   },
 ];
 
