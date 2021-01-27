@@ -2,14 +2,18 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 
+import { PopinfoComponent} from '../componentes/popinfo/popinfo.component';
+
 
 
 @NgModule({
   declarations: [
-    HeaderComponent
+    HeaderComponent,
+    PopinfoComponent
   ],
   exports:[
-    HeaderComponent
+    HeaderComponent,
+    PopinfoComponent
   ],
   imports: [
     CommonModule
