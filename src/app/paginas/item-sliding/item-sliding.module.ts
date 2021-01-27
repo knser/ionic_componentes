@@ -13,7 +13,8 @@ import { ItemSlidingPage } from './item-sliding.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    ItemSlidingPageRoutingModule
+    ItemSlidingPageRoutingModule,
+    
   ],
   declarations: [ItemSlidingPage]
 })

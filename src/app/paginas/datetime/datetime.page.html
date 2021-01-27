@@ -5,5 +5,28 @@
 </ion-header>
 
 <ion-content>
-
+<ion-list-header>
+  <ion-label>Fecha de ingreso</ion-label>
+</ion-list-header>
+<ion-item>
+  <ion-label>Ingrese una fecha:</ion-label>
+  <ion-item>
+    <ion-label>Fecha</ion-label>
+    <ion-datetime display-format="DDD-MMM-YY" 
+    monthShortNames="Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre"
+    dayShortNames="Lunes, Martes, Miercoles, Jueves, Viernes"
+    (ionChange)="cambiofecha($event)"
+    min="2010-01-01"
+    max="2025-12-31"
+    value="2021-01-25"
+    [pickerOptions]="customoptions"></ion-datetime>
+  </ion-item>
+</ion-item>
+<ion-item>
+  <ion-label>Ingrese una hora:</ion-label>
+  <ion-item>
+    <ion-label>Hora</ion-label>
+    <ion-datetime display-format="HH:mm"></ion-datetime>
+  </ion-item>
+</ion-item>
 </ion-content>

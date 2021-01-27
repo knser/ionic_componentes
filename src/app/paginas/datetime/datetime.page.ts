@@ -7,9 +7,31 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DatetimePage implements OnInit {
 
-  constructor() { }
+  customoptions:any;
+
+  constructor() {
+    this.customoptions={
+      buttons:[
+        {
+          text:'Guardar',
+          handler:(event)=>{
+            console.log(event)
+          }
+        },        
+        {
+          text:'Cancelar',
+          handler:(event)=>{
+            console.log(event)
+          }
+        }
+      ]
+    }
+   }
 
   ngOnInit() {
+  }
+  cambiofecha(event ){
+    console.log(new Date(event.detail.value))
   }
 
 }

@@ -63,7 +63,27 @@ export class InicioPage implements OnInit {
       icono: 'person-remove-outline',
       nombre: 'Item Options',
       direccion: '/item-options'
-    }    
+    },
+    {
+      icono: 'person-remove-outline',
+      nombre: 'Check',
+      direccion: '/check'
+    },
+    {
+      icono: 'person-remove-outline',
+      nombre: 'Grid',
+      direccion: '/grid'
+    },
+    {
+      icono: 'person-remove-outline',
+      nombre: 'Popover',
+      direccion: '/popover'
+    },
+    {
+      icono: 'person-remove-outline',
+      nombre: 'Toast',
+      direccion: '/toast'
+    }            
   ]
   constructor() { }
 

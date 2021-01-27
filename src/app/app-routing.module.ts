@@ -55,6 +55,22 @@ const routes: Routes = [
     path: 'item-options',
     loadChildren: () => import('./paginas/item-options/item-options.module').then( m => m.ItemOptionsPageModule)
   },
+  {
+    path: 'check',
+    loadChildren: () => import('./paginas/check/check.module').then( m => m.CheckPageModule)
+  },
+  {
+    path: 'grid',
+    loadChildren: () => import('./paginas/grid/grid.module').then( m => m.GridPageModule)
+  },
+  {
+    path: 'popover',
+    loadChildren: () => import('./paginas/popover/popover.module').then( m => m.PopoverPageModule)
+  },
+  {
+    path: 'toast',
+    loadChildren: () => import('./paginas/toast/toast.module').then( m => m.ToastPageModule)
+  },
 ];
 
 @NgModule({
