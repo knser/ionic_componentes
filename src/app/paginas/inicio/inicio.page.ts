@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
-interface Componente{
-  icono: string;
-  nombre: string;
-  direccion: string;
-}
+import { DataService } from '../../service/data.service';
+
+import { Observable } from 'rxjs';
+
+import { Componente } from '../../interfaces/interfaces';
 
 @Component({
   selector: 'app-inicio',
@@ -13,81 +13,10 @@ interface Componente{
 })
 export class InicioPage implements OnInit {
 
-  componente:Componente[]=[
-    {
-      icono: 'ellipsis-vertical-outline',
-      nombre: 'Action Sheet',
-      direccion: '/action-sheet'
-    },
-    {
-      icono: 'chatbubble-outline',
-      nombre: 'Alert',
-      direccion: '/alert'
-    },
-    {
-      icono: 'planet',
-      nombre: 'Fab',
-      direccion: '/fab'
-    },
-    {
-      icono: 'calendar-outline',
-      nombre: 'Datetime',
-      direccion: '/datetime'
-    },
-    {
-      icono: 'calculator-outline',
-      nombre: 'Botones',
-      direccion: '/buttons'
-    },
-    {
-      icono: 'person-outline',
-      nombre: 'Avatar',
-      direccion: '/avatar'
-    },
-    {
-      icono: 'layers-outline',
-      nombre: 'Cards',
-      direccion: '/cards'
-    },
-    {
-      icono: 'person-add-outline',
-      nombre: 'Item Sliding',
-      direccion: '/item-sliding'
-    },
-    {
-      icono: 'people-outline',
-      nombre: 'Item Group',
-      direccion: '/item-group'
-    },
-    {
-      icono: 'person-remove-outline',
-      nombre: 'Item Options',
-      direccion: '/item-options'
-    },
-    {
-      icono: 'person-remove-outline',
-      nombre: 'Check',
-      direccion: '/check'
-    },
-    {
-      icono: 'person-remove-outline',
-      nombre: 'Grid',
-      direccion: '/grid'
-    },
-    {
-      icono: 'person-remove-outline',
-      nombre: 'Popover',
-      direccion: '/popover'
-    },
-    {
-      icono: 'person-remove-outline',
-      nombre: 'Toast',
-      direccion: '/toast'
-    }            
-  ]
-  constructor() { }
-
+  constructor(private DataService:DataService) { }
+  componente:Observable<Componente[]>;
   ngOnInit() {
+    this.componente=this.DataService.getMenu();
   }
 
 }

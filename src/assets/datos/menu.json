@@ -1,0 +1,102 @@
+[
+    {
+      "icono": "ellipsis-vertical-outline",
+      "nombre": "Action Sheet",
+      "direccion": "/action-sheet"
+    },
+    {
+      "icono": "chatbubble-outline",
+      "nombre": "Alert",
+      "direccion": "/alert"
+    },
+    {
+      "icono": "planet",
+      "nombre": "Fab",
+      "direccion": "/fab"
+    },
+    {
+      "icono": "calendar-outline",
+      "nombre": "Datetime",
+      "direccion": "/datetime"
+    },
+    {
+      "icono": "calculator-outline",
+      "nombre": "Botones",
+      "direccion": "/buttons"
+    },
+    {
+      "icono": "person-outline",
+      "nombre": "Avatar",
+      "direccion": "/avatar"
+    },
+    {
+      "icono": "layers-outline",
+      "nombre": "Cards",
+      "direccion": "/cards"
+    },
+    {
+      "icono": "person-add-outline",
+      "nombre": "Item Sliding",
+      "direccion": "/item-sliding"
+    },
+    {
+      "icono": "people-outline",
+      "nombre": "Item Group",
+      "direccion": "/item-group"
+    },
+    {
+      "icono": "person-remove-outline",
+      "nombre": "Item Options",
+      "direccion": "/item-options"
+    },
+    {
+      "icono": "person-remove-outline",
+      "nombre": "Check",
+      "direccion": "/check"
+    },
+    {
+      "icono": "person-remove-outline",
+      "nombre": "Grid",
+      "direccion": "/grid"
+    },
+    {
+      "icono": "person-remove-outline",
+      "nombre": "Popover",
+      "direccion": "/popover"
+    },
+    {
+      "icono": "person-remove-outline",
+      "nombre": "Toast",
+      "direccion": "/toast"
+    },
+    {
+      "icono": "arrow-redo-outline",
+      "nombre": "Input",
+      "direccion": "/input"
+    },
+    {
+      "icono": "infinite-outline",
+      "nombre": "Infinite Scroll",
+      "direccion": "/scroll"
+    },
+    {
+      "icono": "heart-outline",
+      "nombre": "Listas",
+      "direccion": "/listas"
+    },
+    {
+      "icono": "trash-outline",
+      "nombre": "Listas Reordenadas",
+      "direccion": "/list-reorder"
+    },
+    {
+      "icono": "trash-outline",
+      "nombre": "Modal",
+      "direccion": "/modal"
+    },
+    {
+      "icono": "baseball-outline",
+      "nombre": "Pover",
+      "direccion": "/pover"
+    }     
+  ]

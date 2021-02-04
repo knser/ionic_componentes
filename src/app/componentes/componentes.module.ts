@@ -3,17 +3,20 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 
 import { PopinfoComponent} from '../componentes/popinfo/popinfo.component';
+import { PoverinfoComponent } from './poverinfo/poverinfo.component';
 
 
 
 @NgModule({
   declarations: [
     HeaderComponent,
-    PopinfoComponent
+    PopinfoComponent,
+    PoverinfoComponent
   ],
   exports:[
     HeaderComponent,
-    PopinfoComponent
+    PopinfoComponent,
+    PoverinfoComponent
   ],
   imports: [
     CommonModule
