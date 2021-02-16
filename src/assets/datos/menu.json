@@ -98,5 +98,20 @@
       "icono": "baseball-outline",
       "nombre": "Pover",
       "direccion": "/pover"
-    }     
+    },
+    {
+      "icono": "baseball-outline",
+      "nombre": "Slide",
+      "direccion": "/slide"
+    },
+    {
+      "icono": "baseball-outline",
+      "nombre": "Search",
+      "direccion": "/search"
+    },
+    {
+      "icono": "baseball-outline",
+      "nombre": "Tabs",
+      "direccion": "/tabs"
+    }  
   ]

@@ -99,6 +99,18 @@ const routes: Routes = [
     path: 'pover',
     loadChildren: () => import('./paginas/pover/pover.module').then( m => m.PoverPageModule)
   },
+  {
+    path: 'slide',
+    loadChildren: () => import('./paginas/slide/slide.module').then( m => m.SlidePageModule)
+  },
+  {
+    path: 'search',
+    loadChildren: () => import('./paginas/search/search.module').then( m => m.SearchPageModule)
+  },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./paginas/tabs/tabs.module').then( m => m.TabsPageModule)
+  },
 ];
 
 @NgModule({

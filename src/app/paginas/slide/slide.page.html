@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>slide</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-slides pager="true" [options]="slideOpts" modes="md">
+    <ion-slide *ngFor="let item of slider">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>
+            {{item.nombre}}
+          </ion-card-title>          
+        </ion-card-header>
+        <ion-card-content>
+          <ion-img [src]="item.imagen"></ion-img>
+          <p>Algunas cosas no cambian</p>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
+
